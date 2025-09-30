@@ -39,7 +39,7 @@ jobs:
               - 'pom.xml'
               - '.snyk'
             docker:
-              - 'Dockerfile'
+              - 'dockerfile'
               - 'dockerrun.aws.json'
 
   # Build and test job
